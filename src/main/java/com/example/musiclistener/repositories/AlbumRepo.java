@@ -4,6 +4,7 @@ import com.example.musiclistener.entities.Album;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
+//Repository for Album
 @Repository
 public interface AlbumRepo extends MongoRepository<Album, Integer> {
 }

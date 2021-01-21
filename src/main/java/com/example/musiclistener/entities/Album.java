@@ -15,6 +15,7 @@ import java.util.List;
 @EqualsAndHashCode
 @ToString
 @Builder
+//Creating an Album entity
 public class Album {
     @Id
     private int id;

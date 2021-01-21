@@ -15,6 +15,7 @@ import java.util.List;
 @EqualsAndHashCode
 @ToString
 @Builder
+//Creating an Author entity
 public class Author {
     @Id
     private int id;

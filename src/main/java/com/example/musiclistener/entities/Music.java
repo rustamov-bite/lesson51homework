@@ -13,6 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @EqualsAndHashCode
 @ToString
 @Builder
+// Creating a Music entity
 public class Music {
     @Id
     private int id;

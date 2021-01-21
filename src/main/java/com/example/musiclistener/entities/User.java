@@ -12,6 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @EqualsAndHashCode
 @ToString
 @Builder
+//Creating an User entity
 public class User {
     @Id
     private int id;
